@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(231, 235, 235);
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 5px;
+    background-color: blanchedalmond;
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    /* border-radius: 50%; */
+}
+
+.cell:hover {
+    background-color: rgb(255, 89, 13);
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    font-size: 36px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.row {
+    display: flex;
+}
+
+.cell:hover {
+    background-color: #f0f0f0; /* Light gray background color on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #333; /* Dark gray color */
+    font-family: Arial, sans-serif; /* Specify font family */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
